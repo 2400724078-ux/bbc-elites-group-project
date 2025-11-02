@@ -114,8 +114,10 @@ nav ul li a.active {
   border-radius: 10px;
   padding: 1.5rem;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  width: 1500px;
+  width: 90%;
   transition: transform 0.3s ease;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 .mission {
   justify-content: center;
@@ -273,6 +275,9 @@ footer a:hover {
   }
   .hero p {
     font-size: 1rem;
+  }
+  .hero {
+    padding: 4rem 1rem;
   }
   .service-container,
   .gallery-container {
