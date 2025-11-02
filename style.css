@@ -1,0 +1,272 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+}
+header {
+  background-color: #3f7d5f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.heading {
+  font-size: 22px;
+  line-height: 1.2;
+}
+header .heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.logo {
+  width: 60px;
+  flex-shrink: 0;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  white-space: nowrap;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover,
+nav ul li a.active {
+  color: #ffd58b;
+}
+.hero {
+  background: url('AdobeStock_1753067231_Preview.jpeg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 6rem 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.btn {
+  background-color: #ffd58b;
+  color: #3f3f3f;
+  padding: 0.7rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.about-image :hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+.about-image {
+  border-radius: 10px 20px 30px 40px;
+}
+.btn:hover {
+  background-color: #ffcc66;
+}
+.commander h2 {
+  text-align: center;
+}
+.commander p {
+  font-style: italic;
+  color: #3f7d5f;
+  text-align: center;
+  font-size: 14;
+}
+.commander img {
+  justify-self: center;
+  width: 30%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+.commander {
+   justify-self: center;
+    background: ivory;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  width: 1500px;
+  transition: transform 0.3s ease;
+}
+.mission {
+  justify-content: center;
+  color: #3f7d5f;
+  margin-bottom: 80px;
+}
+.services {
+  background-color: #e7f0ec;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.services h2 {
+  color: #3f7d5f;
+  margin-bottom: 2rem;
+}
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.service-box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.service-box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+.service-box:hover {
+  transform: translateY(-5px);
+}
+.service-box h3 {
+  color: #3f7d5f;
+  margin-bottom: 0.5rem;
+}
+.gallery {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: ivory;
+}
+.gallery h2 {
+  color: #3f7d5f;
+  margin-bottom: 2rem;
+}
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.gallery-container img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.about-you {
+  background-color: #e7f0ec;
+  text-align: center;
+}
+.about-you h2 {
+ color: #3f7d5f;
+  margin-bottom: 2rem;
+}
+.about-ustext {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.about-usbubble img{
+    width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.about-usbubble {
+   background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  transition: transform 0.3s ease;
+}
+.about-usbubble:hover {
+  transform: translateY(-5px);
+}
+p {
+  max-width: 800px;
+  text-align: center;
+  margin: 20px auto;
+  line-height: 1.6;
+  padding: 0 15px;
+}
+input,  form button textarea{
+    display: flexbox;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    border: 2px solid grey;
+}
+ form textarea{
+  display: flexbox;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    border: 2px solid grey;
+}
+form button{
+    width: auto;
+    padding: 15px 40px;
+    background: cadetblue;
+    color: white;
+    font-size: 15px;
+}
+footer {
+  background-color: #3f7d5f;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+}
+footer a {
+  color: #ffd58b;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .service-container,
+  .gallery-container {
+    flex-direction: column;
+  }
+  .service-box,
+  .gallery-container img {
+    width: 90%;
+  }
+}
